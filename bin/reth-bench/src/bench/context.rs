@@ -100,7 +100,7 @@ impl BenchContext {
             (bench_args.from, bench_args.to)
         };
 
-        // If neither `--from` nor `--to` are provided, we will run the benchmark continuously,
+        // If neither `--from` nor `--to` is provided, we will run the benchmark continuously,
         // starting at the latest block.
         let mut benchmark_mode = BenchMode::new(from, to)?;
 
